@@ -42,6 +42,7 @@ public class LogicOp {
 		
 		
 		System.out.println("test");
+		System.out.println("test");
 		
 
 	}
