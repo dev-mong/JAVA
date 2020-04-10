@@ -12,6 +12,7 @@ public class PrefixOp {
 		System.out.println(num2); // 출력 값num2 = 8 
 		System.out.println(--num2); // 출력 값 num2 = 7 
 		System.out.println(num3); // 출력 값 num 3 = 7 
+		
 	}
 
 }
