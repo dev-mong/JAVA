@@ -40,6 +40,9 @@ public class LogicOp {
 			System.out.println("메세지를 보냅니다.");
 		}
 		
+		
+		System.out.println("test");
+		
 
 	}
 
