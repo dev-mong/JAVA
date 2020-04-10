@@ -13,6 +13,8 @@ public class DivOp {
 		//num1을 float으로 형변환 시켜서 num2도 float로 변형 됨 
 		System.out.println("num1 / num2 = " + (float)num1 / num2);
 		System.out.println("형 변환 나눗셈: " + (float)7/3);
+		System.out.println("형 변환 나눗셈: " + (float)7/3);
+		System.out.println("형 변환 나눗셈: " + (float)7/3);
 
 	}
 
