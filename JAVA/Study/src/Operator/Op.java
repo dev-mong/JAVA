@@ -1,4 +1,4 @@
-package Study;
+package Operator;
 
 public class Op {
 	public static void main(String[] args) {
