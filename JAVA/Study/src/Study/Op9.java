@@ -8,11 +8,11 @@ public class Op9 {
 //		변수b의 값이true가 되도록 하는 코드이다.
 		
 		char ch = '1';
-		boolean b = ch == (int)ch;
+		boolean b = ch >= 'A' && ch <= 'Z' || ch >= 'a' && ch <='z' || ch >= '0' && ch <= '9';
 		
 		System.out.println(b);
 			
-		System.out.println("test");
+
 	}
 
 }
