@@ -31,6 +31,7 @@ public class ArithOp {
 		// 6. 나머지연산 -> 결과 출력
 		result = num1 / num2;
 		System.out.println("num1 / num2 = " + result);
+	
 	}
 
 
