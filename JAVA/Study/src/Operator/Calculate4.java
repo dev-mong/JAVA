@@ -26,6 +26,7 @@ public class Calculate4 {
 		System.out.println(c++); // 출력 후 증가 
 
 		System.out.println(c); 
+		
 	}
 
 }
