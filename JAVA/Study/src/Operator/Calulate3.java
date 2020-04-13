@@ -10,7 +10,7 @@ public class Calulate3 {
 		b = (((25*5) + (36-4))-71) / 4;
 		c = (128/4)*2;
 		
-		if (a > b || b > c)
+		if (a > b && b > c)
 		{
 			System.out.println("true");
 		} else {
