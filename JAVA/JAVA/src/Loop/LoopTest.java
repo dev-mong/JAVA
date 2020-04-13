@@ -9,22 +9,22 @@ public class LoopTest {
 		}
 
 		System.out.println("--------------");
-		
-		int i = 1;
+
+		int i = 1; // 초기화
 
 		while (i < 51) {
 			System.out.println(i);
 			i++; // ☆☆☆☆☆☆☆중요☆☆☆☆☆☆
 		}
-		
+
 		System.out.println("--------------");
-		i = 1;
 		
+		i = 1;// 초기화
+
 		do {
 			System.out.println(i);
 			i++;
-		}while(i<51);
-
+		} while (i < 51);
 	}
 
 }
