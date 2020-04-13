@@ -16,7 +16,8 @@ public class Op10 {
 		 */
 		
 		char ch = 'A';
-		char lowerCase =  ch >= 'A' && ch <= 'Z'? (char)(ch + 32) : ch;
+		char lowerCase =  ch >= 'A' && ch <= 'Z'? (char)(ch + 32);
+	
 		System.out.println("ch: " + ch);
 		System.out.println("ch to lowerCase: " + lowerCase);
 
