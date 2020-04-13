@@ -3,7 +3,7 @@ package algorithm;
 public class Algorithm8 {
 
 	public static void main(String[] args) {
-//		작은 수에서 큰 수 까지의 합 구하기
+//		작은 수에서 큰 수 까지의 합 구하기 
 		
 		int num[] = {10,20,40,30};
 		int max = num[0];

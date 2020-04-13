@@ -3,7 +3,7 @@ package algorithm;
 public class Algorithm5 {
 
 	public static void main(String[] args) {
-//		세 수중 큰수 찾기 
+//		세 수중 큰수 찾기  
 
 //		int num1, num2, num3, max;
 //
