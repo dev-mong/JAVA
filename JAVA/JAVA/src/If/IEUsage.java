@@ -16,6 +16,8 @@ public class IEUsage {
 		} else {
 			System.out.println("홀수 입니다.");
 		}
+		
+		
 	}
 
 }
