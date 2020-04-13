@@ -38,7 +38,6 @@ public class Op2 {
 		  
 	   	System.out.println("필요한바구니의 수 :"+numOfBucket);
 		 
-
 	}
 
 }
