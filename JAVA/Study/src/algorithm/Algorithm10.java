@@ -21,6 +21,7 @@ public class Algorithm10 {
 			}
 		}
 		System.out.println(sum);
+		
 
 	}
 
