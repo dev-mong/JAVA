@@ -3,7 +3,7 @@ package algorithm;
 public class Algorithm4 {
 
 	public static void main(String[] args) {
-//		두 수중 큰수 찾기 
+//		두 수중 큰수 찾기  
 
 		int num1, num2;
 
