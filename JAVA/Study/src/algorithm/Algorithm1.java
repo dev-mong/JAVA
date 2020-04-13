@@ -15,6 +15,7 @@ public class Algorithm1 {
 		
 		result = num2- num1;
 		System.out.println("num2 - num1 = " + result);
+
 		
 	}
 
