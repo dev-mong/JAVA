@@ -15,6 +15,7 @@ public class Algorithm3 {
 		}else {
 			System.out.println("홀수");
 		}
+		
 
 	}
 
