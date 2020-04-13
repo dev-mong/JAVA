@@ -25,6 +25,7 @@ public class LoopTest {
 			System.out.println(i);
 			i++;
 		} while (i < 51);
+		
 	}
 
 }
