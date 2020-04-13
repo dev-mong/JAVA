@@ -1,0 +1,15 @@
+package Loop;
+
+public class DoWhileBasic {
+
+	public static void main(String[] args) {
+		int num = 0; //반복의 조건을 체크하는 변수
+		
+		do {
+			System.out.println("I like JAVA" + num);
+			num ++;
+		}while(num < 5);
+
+	}
+
+}
