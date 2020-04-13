@@ -1,4 +1,4 @@
-package NEW;
+package NEw;
 
 public class DD {
 
