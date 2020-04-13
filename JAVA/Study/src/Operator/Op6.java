@@ -12,7 +12,7 @@ public class Op6 {
 		int num = 24;
 		int result;
 		result = (((num / 10) + 1) * 10 ) - num;
-		
+		result = num - num % 10;
 		System.out.println(result);
 		
 		
