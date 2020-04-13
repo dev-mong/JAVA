@@ -17,7 +17,6 @@ public class IEUsage {
 			System.out.println("홀수 입니다.");
 		}
 		
-		
 	}
 
 }
