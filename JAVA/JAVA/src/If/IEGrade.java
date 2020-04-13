@@ -5,7 +5,7 @@ public class IEGrade {
 	public static void main(String[] args) {
 		int score = 99;
 		String grade = ""; // A+, A, A-, B+, B, B-, C
-
+		
 		// 100~98 : A +, 95 ~94 : A, 93 ~ 90: A-
 //		if (score >= 98 && score <= 100) {
 //			grade = "A +";
