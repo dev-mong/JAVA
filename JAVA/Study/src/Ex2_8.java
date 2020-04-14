@@ -1,4 +1,4 @@
-package algorithm;
+
 
 public class Ex2_8 {
 
