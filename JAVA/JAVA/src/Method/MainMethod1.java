@@ -7,12 +7,10 @@ public class MainMethod1 {
 		//메서드 코드를 메모리에 로드
 		//인스턴스 생성 ( 객체 생성 )
 
-		Method2 math = new Method2();
-	}
-	
-	int add() {
-		return 0;
-		
+		Method2 math = new Method2(); // 주소를 참조해서 메서드 사용
+		long result = math.add(10, 100);
+		System.out.println(result);
+		System.out.println(math.add(1000000000L, 2000000000));
 	}
 
 }
