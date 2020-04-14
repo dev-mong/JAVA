@@ -22,6 +22,7 @@ public class FruitMain {
 		System.out.println("-----구매자 구매 정보 출력-----");
 		System.out.println("구매자의 구매 한 사과 개수: " + buyer.numOfApple); // 구매자가 산 사과 개수
 		System.out.println("구매자의 현재 보유한 금액 : " + buyer.myMoney); // 구매자의 지출 후 금액 
+	
 	}
 
 }
