@@ -10,6 +10,7 @@ public class Method2 {
 
 		long result = n1 + n2;
 		return result;
+		
 	}
 
 }

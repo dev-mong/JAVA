@@ -13,6 +13,7 @@ public class MethodDefAdd {
 		hiEveryone(1,100);
 	}
 	
+	
 	//인사말 출력, 나이값을 받아서 나이를 출력하는 메서드
 	static void hiEveryone(int age, double height) {
 		System.out.println("안녕하세요");

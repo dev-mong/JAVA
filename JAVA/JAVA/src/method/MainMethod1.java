@@ -11,6 +11,7 @@ public class MainMethod1 {
 		long result = math.add(10, 100);
 		System.out.println(result);
 		System.out.println(math.add(1000000000L, 2000000000));
+		
 	}
 
 }

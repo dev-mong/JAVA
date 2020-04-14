@@ -1,4 +1,4 @@
-package ClassAndInstance;
+package classandinstance;
 
 public class FruitBuyer {
 	// 속성 : 변수
