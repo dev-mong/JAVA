@@ -4,6 +4,7 @@ public class FruitMain {
 
 	public static void main(String[] args) {
 		
+		
 		// 판매자 생성 : 인스턴스화
 		FruitSeller seller = new FruitSeller(); // 객체생성 = 인스턴스 생성 -> 메모리에 변수와 변수의 데이터 메서드가 저장됨
 		// 구매자 생성 : 인스턴스화

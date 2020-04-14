@@ -3,6 +3,7 @@ package classandinstance;
 public class FruitSeller {
 	// 속성 -> 변수
 
+	
 	// 멤버 변수 or 인스턴스 변수
 	int numOfApple = 20; // 사과의 개수
 	int myMoney = 0; // 판매 수입
