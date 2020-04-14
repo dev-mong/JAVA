@@ -8,7 +8,6 @@ public class Ex2_9 {
 
 		String str = "12345";
 		int sum = 0;
-		char c = ' ';
 		int num;
 		
 		for(int i=0;i<str.length();i++) {
