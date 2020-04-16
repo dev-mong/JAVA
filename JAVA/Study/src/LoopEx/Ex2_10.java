@@ -1,4 +1,4 @@
-package algorithm;
+package LoopEx;
 
 
 public class Ex2_10 {
