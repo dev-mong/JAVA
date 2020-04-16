@@ -1,4 +1,4 @@
-package classandinstance;
+package fruitProgram;
 
 public class FruitBuyer {
 	// 속성 : 변수
