@@ -1,7 +1,7 @@
 package membercall;
 
 
-public class MemberCall {
+public class Number {
 	
 	//인스턴스 변수
 	int iv =10;
@@ -11,7 +11,7 @@ public class MemberCall {
 	int iv2 = cv; //인스턴스 변수에 static 변수 값을 넣었기에 가능 
 //	static int cv2 = iv; // 오류 발생,
 	// 해결방법
-	static int cv2 = new MemberCall().iv; //인스턴스 생성 후 선언, 한번만 사용 할 떄
+	static int cv2 = new Number().iv; //인스턴스 생성 후 선언, 한번만 사용 할 떄
 	
 	
 	static void staticMethod() {
@@ -21,7 +21,7 @@ public class MemberCall {
 		// 인스턴스 멤버 출력
 //		System.out.println(iv);
 		
-		MemberCall mc = new MemberCall();
+		Number mc = new Number();
 		System.out.println(mc.iv);
 		
 	}
