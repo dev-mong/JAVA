@@ -5,9 +5,12 @@ public class CardMain {
 	public static void main(String[] args)
 	{
 		// 인스턴스 생성
-		Card c1 = new Card();
-		c1.kind="Heart";
-		c1.number=7;
+//		Card c1 = new Card();
+//		c1.kind="Heart";
+//		c1.number=7;
+		
+		Card c1 = new Card("Heart",7);
+		
 		
 		//인스턴스 생성
 		Card c2 = new Card();
