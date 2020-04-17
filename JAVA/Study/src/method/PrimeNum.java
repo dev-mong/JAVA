@@ -2,7 +2,6 @@ package method;
 
 public class PrimeNum {
 
-	static String num;
 
 	public static void main(String[] args) {
 
