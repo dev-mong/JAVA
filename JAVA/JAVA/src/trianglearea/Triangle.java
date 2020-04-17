@@ -29,12 +29,12 @@ public class Triangle {
 		float result=width*height/2f;
 		return result;
 	}
-	
+
 	 // main 함수
 	public static void main(String[] args) {
 		
 		//삼각형 객체 생성
-//		Triangle t = new Triangle();
+		//Triangle t = new Triangle();
 		Triangle t = new Triangle(5,3);
 		
 		//데이터 설정
