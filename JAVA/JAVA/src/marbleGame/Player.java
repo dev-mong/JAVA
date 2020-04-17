@@ -4,6 +4,10 @@ public class Player {
 	
 	int numofMarble; // 구슬의 개수
 	
+	Player(int num){
+		numofMarble=num; // 구슬 초기화 
+	}
+	
 	//구슬의 개수 설정
 	void setMarble(int num) {
 		numofMarble = num;
@@ -23,13 +27,13 @@ public class Player {
 	
 	public static void main(String[] args) {
 		//1번 사용자 생성
-		Player p1 = new Player();
+		Player p1 = new Player(15);
 		//2번 사용자 생성
-		Player p2 = new Player();
+		Player p2 = new Player(9);
 		
-		//1번은 15개 보유, 2번은 9개 보유
-		p1.setMarble(15);
-		p2.setMarble(9);
+		//1번은 15개 보유, 2번은 9개 보유 => 생성자를 만들면 메서드 필요 X
+		//p1.setMarble(15);
+		//p2.setMarble(9);
 		
 		System.out.println("1번 사용자는 "+p1.numofMarble+" 보유 2번 사용자는 "+p2.numofMarble+" 보유");
 		System.out.println("------------게임결과--------------------");
