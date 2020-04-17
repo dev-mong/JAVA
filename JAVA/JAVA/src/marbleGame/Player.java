@@ -1,6 +1,9 @@
 package marbleGame;
+import card.Card;
 
 public class Player {
+	
+	Card c = new Card();
 	
 	int numofMarble; // 구슬의 개수
 	
