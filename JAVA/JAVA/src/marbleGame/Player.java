@@ -1,7 +1,5 @@
 package marbleGame;
 
-
-
 public class Player {
 	
 	
