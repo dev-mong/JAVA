@@ -1,12 +1,11 @@
 package marbleGame;
-import card.Card;
-
 
 public class Player {
 	
-	Card c = new Card();
 	
 	int numofMarble; // 구슬의 개수
+	
+	
 	
 	Player(int num){
 		numofMarble=num; // 구슬 초기화 
