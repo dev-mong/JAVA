@@ -13,9 +13,16 @@ public class InstanceArray {
 		
 		//String 참조변수 => strArray[]
 		System.out.println("문자열의 길이: "+strArray[0].length());
-		System.out.println("문자열의 toString():  "+strArray[0].toString()); 
+		System.out.println("문자열의 toString(): "+strArray[0].toString()); 
 		
-
+		
+		
+		//배열의 순차적 참조 ( 반복문 이용해서 참조 )
+		for(int i=0;i<strArray.length;i++) {
+			System.out.println(strArray[i]);
+		}
+		
+		
 	}
 
 }
