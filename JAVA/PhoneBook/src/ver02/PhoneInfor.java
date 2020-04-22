@@ -1,4 +1,4 @@
-package ver01;
+package ver02;
 
 import java.util.*;
 
@@ -45,6 +45,5 @@ public class PhoneInfor {
 		
 	}
 	
-
 
 }
