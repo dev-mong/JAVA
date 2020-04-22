@@ -11,9 +11,10 @@ public class PhoneBookManager {
 
 	Scanner sc = new Scanner(System.in);
 	
+	//PhoneInfor 클래스의 인스턴스 선언 메소드 
 	PhoneInfor createInstance() {
 		
-		PhoneInfor info = null;
+		PhoneInfor info = null; // 참조변수 선언 
 		
 		System.out.println("정보를 저장하기 위한 데이터를 입력하세요");
 		
