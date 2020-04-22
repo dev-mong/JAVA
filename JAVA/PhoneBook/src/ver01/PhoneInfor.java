@@ -26,9 +26,7 @@ public class PhoneInfor {
 //		this.name=name;
 //		this.phoneNumber=phoneNumber;
 		this(name,phoneNumber,"입력값이 없습니다."); 
-	}
-	
-	
+	}	
 	
 	//데이터 출력 메소드 
 	void showInfo() {
