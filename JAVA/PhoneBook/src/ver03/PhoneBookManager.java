@@ -82,6 +82,7 @@ public class PhoneBookManager {
 	
 	//배열에서 이름을 기준으로 검색 후 index 값을 반환 하는 메소드
 	int searchIndex(String name){
+		
 		int searchIndex=-1;//검색하는 이름의 데이터를 출력하지 않음 
 		
 		//사용자가 입력한 이름으로 배열에 요소를 검색
@@ -125,9 +126,8 @@ public class PhoneBookManager {
 		if(searchIndex<0) {
 			System.out.println("찾으시는 이름의 데이터가 존재하지 않습니다.");
 		} else {
-
 			//삭제 기능 : 검색한 index 부터 저장된 위치까지 왼쪽으로 이동 
-			for(int i=searchIndex;i<cnt-1;i++) {
+			for(int i=searchIndex;i<cnt-1;i++) { //cnt-1 하는 이유 : 배열의 인덱스 값은 배열의 길이에서 -1 한 값 
 				pBooks[i]=pBooks[i+1];
 			}
 			
