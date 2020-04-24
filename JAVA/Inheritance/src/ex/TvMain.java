@@ -4,26 +4,26 @@ public class TvMain {
 
 	public static void main(String[] args) {
 		
-		Tv tv1 = new Tv();
-		
-		IpTv itv = (IpTv)tv1; //하위 클래스 참조변수에 상위 클래스 참조 변수를 넣으면 명시적 형변환
-		
-		CaptionTv cTv1 = new CaptionTv();
-//		Tv t = (Tv)cTv1; //형변환 
-		Tv t = cTv1;//자동 형변환도 가능
+//		Tv tv1 = new Tv();
+//		
+//		IpTv itv = (IpTv)tv1; //하위 클래스 참조변수에 상위 클래스 참조 변수를 넣으면 명시적 형변환
+//							
 		
 		
-		//참조형 타입이 사용할 수있는 멤버들을 결정해줌 
-		// captiontv의 변수는 사용 불가능
-		Tv tv2 = new CaptionTv(); 
-		
-		IpTv itv3 = (IpTv)tv2; // 불가능 
+//		CaptionTv cTv1 = new CaptionTv();
+////		Tv t = (Tv)cTv1; //형변환 
+//		Tv t = cTv1;//자동 형변환도 가능
 		
 		
-		
-		
-		CaptionTv cTv2 = (CaptionTv)tv2;
-		((CaptionTv) tv2).caption(); //captionTv로 형변환 
+//		//참조형 타입이 사용할 수있는 멤버들을 결정해줌 
+//		// captiontv의 변수는 사용 불가능
+//		Tv tv2 = new CaptionTv(); 
+//		
+//		IpTv itv3 = (IpTv)tv2; // 형변환 필수 
+//			
+//		
+//		CaptionTv cTv2 = (CaptionTv)tv2;
+//		((CaptionTv) tv2).caption(); //captionTv로 형변환 
 		
 //		System.out.println(tv2.power);
 //		tv2.power();
