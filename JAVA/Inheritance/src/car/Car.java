@@ -21,6 +21,7 @@ public class Car {
 		Fireengine fe2 = null;
 		Ambulance am = null;
 		
+		
 		fe1.water(); // 참조변수를 이용하여 메소드 호출 
 		car = fe1; // car는 상위 클래스 이므로 형변환 생략 가능
 		
@@ -28,11 +29,8 @@ public class Car {
 //		car.water(); // 오류 ???????????????????
 		
 		car=fe2;
-		car.siren();
 		
 		fe2 = (Fireengine)car;
-		
-
 		
 		if(car instanceof Ambulance) { //형변환 여부 확인 : instanceof
 			am = (Ambulance)car; //오류 
