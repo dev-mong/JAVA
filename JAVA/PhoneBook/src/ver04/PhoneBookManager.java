@@ -187,16 +187,12 @@ public class PhoneBookManager{
 			PhoneInfo info=null;
 			
 			//저장된 인스턴스 : 기본? 대학? 회사? 동호회?
-			if(books[index] instanceof PhoneInfo) {
-				info=new PhoneInfo(editName, phoneNumber, addr, email);
-				
-			} else if(books[index] instanceof PhoneUnivInfo) {
+		if(books[index] instanceof PhoneUnivInfo) {
 				System.out.println("전공을 입력하세요");
 				String major=kb.nextLine();
 				System.out.println("학년을 입력하세요");
 				String grade=kb.nextLine();
 				info=new PhoneUnivInfo(editName, phoneNumber, addr, email, major, grade);
-				
 			} else if(books[index] instanceof PhoneCompanyInfo) {
 				System.out.println("회사이름을 입력하세요");
 				String company=kb.nextLine();
@@ -205,14 +201,16 @@ public class PhoneBookManager{
 				System.out.println("직급을 입력하세요");
 				String job=kb.nextLine();
 				info=new PhoneCompanyInfo(editName, phoneNumber, addr, email, company, dept, job);
-				
 			} else if(books[index] instanceof PhoneCafeInfo) {
 				System.out.println("동호회 이름을 입력하세요");
 				String cafeName=kb.nextLine();
 				System.out.println("닉네임을 입력하세요");
 				String nickName=kb.nextLine();
 				info=new PhoneCafeInfo(editName, phoneNumber, addr, email, cafeName, nickName);
-			}
+			} else 	if(books[index] instanceof PhoneInfo) {
+				info=new PhoneInfo(editName, phoneNumber, addr, email);
+				
+			} 
 			
 			//배열에 새로운 인스턴스 저장 
 			books[index]=info;

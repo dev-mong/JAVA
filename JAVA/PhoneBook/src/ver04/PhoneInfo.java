@@ -4,10 +4,12 @@ package ver04;
 //인스턴스 생성의 목적이 없다 
 public class PhoneInfo {
 
-	String name; 		//이름
-	String phoneNumber; //전화번호
-	String addr;        //주소
-	String email;		//이메일
+	 String name; 		//이름
+	 String phoneNumber; //전화번호
+	 String addr;        //주소
+	 String email;		//이메일
+	
+	PhoneInfo(){}
 	
 	//인스턴스 변수들 초기화
 	PhoneInfo(String name,String phoneNumber,String addr,String email){
@@ -15,6 +17,12 @@ public class PhoneInfo {
 		this.phoneNumber=phoneNumber;
 		this.addr=addr;
 		this.email=email;
+	}
+	
+	private static PhoneInfo info = new PhoneInfo();
+	
+	public static PhoneInfo getInstance() {
+		return info;
 	}
 	
 	//기본 정보 출력 메서드
@@ -29,5 +37,5 @@ public class PhoneInfo {
 		// 상속 후 오버라이딩을 통해 재구성 
 		showBasicInfo();
 	}
-	
+
 }
