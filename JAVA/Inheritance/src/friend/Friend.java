@@ -12,6 +12,10 @@ public class Friend {
 	String phoneNum; //전화번호
 	String addr;    //주소
 	
+	Friend(){
+		
+	}
+	
 	//생성자
 	Friend(String name,String phoneNum,String addr){
 		this.name=name;

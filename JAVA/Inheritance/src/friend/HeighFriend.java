@@ -9,8 +9,7 @@ public class HeighFriend extends Friend{ //고등학교 친구 클래스
 		super(name, phoneNum, addr);
 		this.work=work;
 	}
-
-
+	
 	@Override
 	void showData() {
 		showBasicInfo();
