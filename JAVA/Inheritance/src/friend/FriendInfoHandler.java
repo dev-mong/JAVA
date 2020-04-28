@@ -2,13 +2,12 @@ package friend;
 
 import java.util.Scanner;
 
-//수정 - 싱글톤 처리 2020.04.28
-//싱글톤 처리
-/*생성자 접근 제어 지시자 : pirvate ⇒ 인스턴스 생성을 막음
+/*수정 - 싱글톤 처리 2020.04.28
+싱글톤 처리
+생성자 접근 제어 지시자 : pirvate ⇒ 인스턴스 생성을 막음
 공동으로 사용 할 인스턴스 생성 : static private
 참조 변수 반환 메소드 : static public ⇒ 인스턴스 변수로 선언 
 */
-
 
 public class FriendInfoHandler { //데이터 입력 출력
 	
