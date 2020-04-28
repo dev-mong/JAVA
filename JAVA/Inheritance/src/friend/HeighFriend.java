@@ -11,7 +11,7 @@ public class HeighFriend extends Friend{ //고등학교 친구 클래스
 	}
 	
 	@Override
-	void showData() {
+	public void showData() {
 		showBasicInfo();
 		System.out.println("직업: "+this.work);
 	} 
