@@ -8,7 +8,7 @@ public class AgeInputException2 {
 	public static void main(String[] args) {
 		
 		try {
-			int age=readAge();
+			int age=readAge(); //예외 발생 
 			System.out.println("나이는 "+age+"세 입니다.");
 		}catch(AgeInputException e) {
 			System.out.println(e.getMessage());
@@ -26,7 +26,7 @@ public class AgeInputException2 {
 		int age=kb.nextInt();
 		if(age<0) {
 			AgeInputException e=new AgeInputException();
-			throw e; //강제적으로 예외발생 지점을 메소드 호출하는 곳으로 넘김 
+			throw e; //예외 발생을 메소드 호출 시 처리 
 		} 
 		return age;
 		
