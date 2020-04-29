@@ -120,6 +120,7 @@ public class PhoneBookManager{
 		} catch(StringEmptyException e) {
 			System.out.println("기본 정보는 공백없이 모두 입력해주세요.");
 			System.out.println("다시 입력해주세요 \n");
+			continue;
 		}
 			break;
 		}
