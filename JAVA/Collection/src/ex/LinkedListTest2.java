@@ -12,15 +12,12 @@ public class LinkedListTest2 {
 		String str4="four";
 		
 		Data d1=new Data(str1,str2); 
-		
-		Data d4=new Data(str4,str2);
-
 		Data d2=new Data(str2,str3);
 		Data d3=new Data(str3,null);
 		
-		
-		
-		d1.setNextValue(d3); //주소값을 d3으로 참조 
+		//데이터 삽입
+		Data d4=new Data(str4,str2);		
+		d1.setNextValue(str4); 
 	
 	}
 
