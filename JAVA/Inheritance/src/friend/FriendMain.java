@@ -18,7 +18,7 @@ public class FriendMain {
 			System.out.println(" "+Menu.INSERT_HEIGH+" 고교 친구 저장");
 			System.out.println(" "+Menu.INSERT_UNIV+" 대학 친구 저장");
 			System.out.println(" "+Menu.PRINT_BASIC+" 친구 기본정보 출력");
-			System.out.println(" "+Menu.PRINT_ALL+" 친구 상세정보 출력");
+			System.out.println(" "+Menu.PRINT_ALL+" 전체 정보 출력");
 			System.out.println(" "+Menu.EXIT+" 프로그램 종료");
 			System.out.println("=====전체정보 출력=========");
 		
@@ -39,6 +39,8 @@ public class FriendMain {
 				System.out.println("예외발생");
 				handler.kb.nextLine(); // 버퍼 공간 클리어 
 				continue; // 반복문 마지막 블록으로 이동 => 조건식으로 이동
+			}finally {
+				handler.kb.nextLine(); 
 			}
 			
 			switch(choice) {
