@@ -16,7 +16,7 @@ public class IteratorEx {
 		list.add(0);
 		list.add(1);
 		
-		//데이터 참조
+		//데이터 참조			
 		System.out.println("저장된 데이터를 확인합니다.");
 		//반복문을 통해서 일괄 참조 가능
 		for(int i=0;i<list.size();i++) {
